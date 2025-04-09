@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">=3.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_MOVIE_API_KEY": "e049a8ed893dd329b36f7d69cb65e74c"
+      }
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_MOVIE_API_KEY": "e049a8ed893dd329b36f7d69cb65e74c"
+      }
+    }
+  }
+}
